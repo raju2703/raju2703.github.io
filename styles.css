@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  min-height: 100vh;
+}
+
+.hero img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.about-info {
+  font-size: 1.1rem;
+}
+
+.section-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1565c0;
+  border: 2px solid #1565c0;
+  border-radius: 50px;
+  padding: 8px 20px;
+  background: transparent;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.skill-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffeb3b;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;       /* uniform height for all project images */
+  object-fit: cover;  /* prevents distortion */
+  border-radius: 8px; /* smooth corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#contact p {
+  margin-bottom: 0.25rem;
+}
+
+#contact a:hover {
+  color: #ffc107;
+}
+
+#contact i {
+  transition: transform 0.3s;
+}
+
+#contact i:hover {
+  transform: scale(1.2);
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.skills-list i {
+  min-width: 24px;
+}
