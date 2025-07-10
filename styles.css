@@ -85,3 +85,14 @@ body {
 .skills-list i {
   min-width: 24px;
 }
+.btn-resume {
+  background-color: #ff6f61; /* 🔶 Custom color (e.g., coral orange) */
+  color: #fff;               /* Text color */
+  border: none;              /* Remove border if you want */
+  transition: all 0.3s ease;
+}
+
+.btn-resume:hover {
+  background-color: #e65141; /* Darker shade on hover */
+  color: #fff;
+}
